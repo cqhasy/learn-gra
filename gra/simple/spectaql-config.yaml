@@ -1,0 +1,9 @@
+title: "GraphQL API"
+description: "自动生成的 GraphQL 文档"
+logoUrl: ""
+introspection:
+  url: "http://localhost:8080/graphql"
+servers:
+  - url: "http://localhost:8080/graphql"  # GraphQL 服务地址
+build:
+  outputDir: "docs"
